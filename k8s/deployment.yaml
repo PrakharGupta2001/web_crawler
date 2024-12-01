@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web-crawler
-        image: your-dockerhub-username/web-crawler:latest
+        image: prakhargupta05/file_store:02
         ports:
         - containerPort: 5000
         livenessProbe:
