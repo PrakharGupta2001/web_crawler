@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: web-crawler
-        image: prakhargupta05/file_store:02
+        image: prakhargupta05/web_crawler:02
         ports:
         - containerPort: 5000
         livenessProbe:
