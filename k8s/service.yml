@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: web-crawler
+  name: web-crawler-service
 spec:
   selector:
     app: web-crawler
